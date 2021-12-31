@@ -13,6 +13,8 @@ We performed our analysis with Microsoft Excel. Excel is an extremely powerful t
 
 The kickstarter spreadsheet that we have been analyzing can be found here: [Kickstarter](https://github.com/haldud/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
 
+Below are charts that we created in Excel that show trends related to launch date and funding goals.
+
 ### Analysis of Outcomes Based on Launch Date
 ![Theater Outcomes based on Launch Date](https://github.com/haldud/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
 
@@ -22,6 +24,9 @@ The kickstarter spreadsheet that we have been analyzing can be found here: [Kick
 ### Challenges and Difficulties Encountered
 
 ## Results
+Here are our conclusions that we have been tasked to answer according to the two factors:
+1. Launch date
+  - May significantly stands out as the month with the most successful campaigns. May is also tied with October for the most failed campaigns. We needed to pay a little closer attention to determine if May is the ideal month to launch a campaign. May does turn out to have the highest chance of a successful campaing with 67%. The months of June and July have the second and third highest chances of succeeding with 65% and 63%, respectively. The month of December has the worst chances with 49% succeeding. All of the other months have at least a 57$ chance of succeeding.
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 

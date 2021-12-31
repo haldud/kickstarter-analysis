@@ -23,9 +23,10 @@ Below are charts that we created in Excel that show trends related to launch dat
 
 ### Challenges and Difficulties Encountered
 Overall this project went very smoothly. One of the stumbling blocks that I encountered was understanding the parameters for the COUNTIFS function in Excel. I did not include the second parameter in double quotes initially. For example, I was attempting to use:
-  =COUNTIFS(Kickstarter!$D:$D, <font color="red"><1000</font>, Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays")
-instead of the correct syntax:
-  =COUNTIFS(Kickstarter!$D:$D, <font color="red">"<1000"</font>, Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays")
+
+  =COUNTIFS(Kickstarter!$D:$D, <1000, Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays")
+
+The <1000 needed to be in quotes like this: "<1000"
 
 ## Results
 Here are our conclusions that we have been tasked to answer according to the launch date and funding goals.

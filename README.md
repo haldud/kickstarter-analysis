@@ -22,6 +22,10 @@ Below are charts that we created in Excel that show trends related to launch dat
 ![Theater Outcomes based on Goals](https://github.com/haldud/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
+Overall this project went very smoothly. One of the stumbling blocks that I encountered was understanding the parameters for the COUNTIFS function in Excel. I did not include the second parameter in double quotes initially. For example, I was attempting to use:
+  =COUNTIFS(Kickstarter!$D:$D, <font color="red"><1000</font>, Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays")
+instead of the correct syntax:
+  =COUNTIFS(Kickstarter!$D:$D, <font color="red">"<1000"</font>, Kickstarter!$F:$F, "successful", Kickstarter!$R:$R, "plays")
 
 ## Results
 Here are our conclusions that we have been tasked to answer according to the launch date and funding goals.
@@ -32,4 +36,4 @@ Here are our conclusions that we have been tasked to answer according to the lau
 
 One of the limitations that I encountered when analyzing the outcomes based on goal data was the lack of campaings with fundraising goals over $25K. It would have been good to see more examples in that range in order confirm that campaigns with smaller goals have a better chance of succeeding. One of the other dataset issues that we did not address was the matter of currency conversion. The spreadsheet contains data with multiple currencies and we treated all of the goals in US dollars instead of converting the goal in the local currency to US dollars.
 
-There are a few other columns in the kickstarter dataset that we did not focus on, but could perhaps also provide some insights. We could have charted if the campaign duration affects the chance of succeeding? Also, can we find any insight based on country? If Louise is flexible in where she launches her campaign then analyzing data by country could also be beneficial. In addition, there are some other columns that were not discussed such as "staff_pick" and "spotlight". It would have been important to identify what those represented and if they impact the chance of success.
+There are a few other columns in the kickstarter dataset that we did not focus on, but could perhaps also provide some insights. We could have charted if the campaign duration affects the chance of succeeding. Also, can we find any insight based on country? If Louise is flexible in where she launches her campaign then analyzing data by country could also be beneficial. In addition, there are some other columns that were not discussed such as "staff_pick" and "spotlight". It would have been important to identify what those represented and if they impact the chance of success.

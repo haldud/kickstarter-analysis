@@ -9,6 +9,9 @@ The most recent update we have from Louise is that her play *Fever* came close r
 2. Funding goals - does the fundrasing goal seem to have an impact on the success of a campaign?
 
 ## Analysis and Challenges
+We performed our analysis with Microsoft Excel. Excel is an extremely powerful tool for analyzing data containing approximately less than one million rows. Our data set of kickstarter data contained just over 4,000 rows so Excel was the perfect tool to find valuable information for Louise.
+
+The kickstarter spreadsheet that we have been analyzing can be found here: ![Kickstarter](https://github.com/haldud/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
 
 ### Analysis of Outcomes Based on Launch Date
 ![Theater Outcomes based on Launch Date](https://github.com/haldud/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
@@ -27,21 +30,3 @@ The most recent update we have from Louise is that her play *Fever* came close r
 - What are some limitations of this dataset?
 
 - What are some other possible tables and/or graphs that we could create?
-
-
-
-# An Analysis of Kickstarter Campaigns
-Performing analysis on Kickstarter data to uncover trends and make recommendations for Louise's campaign
-
-## Outcomes based on Launch Date
-![Outcomes based on Launch Date](outcomesBasedOnLaunchDate.png)
-
-## Outcomes based on Parent Category
-![Outcomes based on Parent Category](parentCategoryOutcomesChart.png)
-
-## Summary
-Based on the analysis performed, it would benefit Louise to launch her campaing in the month of May.
-
-Being in theater category and play subcategory, Louise will have around a 60% chance of succeeding in the US.
-
-Louise can also improve her chances of succeeding by lowering the amount that she'd like to raise. Analyzing the data of her favorite GB plays, tells us that her goal should be less than $4,000. The average goal for those was $4,060 and the highest pledged amount that does not include outliers is $3,015.

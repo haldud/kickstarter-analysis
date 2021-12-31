@@ -11,7 +11,7 @@ The most recent update we have from Louise is that her play *Fever* came close r
 ## Analysis and Challenges
 We performed our analysis with Microsoft Excel. Excel is an extremely powerful tool for analyzing data containing approximately less than one million rows. Our data set of kickstarter data contained just over 4,000 rows so Excel was the perfect tool to find valuable information for Louise.
 
-The kickstarter spreadsheet that we have been analyzing can be found here: ![Kickstarter](https://github.com/haldud/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
+The kickstarter spreadsheet that we have been analyzing can be found here: [Kickstarter](https://github.com/haldud/kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx)
 
 ### Analysis of Outcomes Based on Launch Date
 ![Theater Outcomes based on Launch Date](https://github.com/haldud/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
